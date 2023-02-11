@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: -webkit-gradient(linear, left bottom, left top, from(#505050), to(#072a52) ) fixed
+
+}
+
+.center{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+section.box1{
+    margin-top: 50px;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    width: 100%;
+    max-width: 150px;
+}
+
+.logo img{
+    width: 100%;
+    border-radius:100%;
+}
+
+.descricao{
+    text-align: center;
+    font-family: 'Ubuntu';
+    color: white;
+    margin: 10px 0;
+}
+
+.descricao h2{
+    font-weight: normal;
+}
+
+.descricao p{
+    color: #dfdfdf;
+}
+
+
+.links{
+    width: 100%;
+    text-align: center;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.links .link-a:hover{
+    background: black;
+    color: #505050;
+}
+
+.links .link-a{
+    position: relative;
+    border-radius: 7px;
+    border:2px solid white;
+    padding:10px;
+    margin:17px 0;
+    transition: 0.3s;
+}
+
+.links .link-a i{
+    position: absolute;
+    left: 25px;
+    line-height: 1;
+    font-size: 23px;
+}
+
+.links .link-a h2{
+    font-weight: normal;
+}
